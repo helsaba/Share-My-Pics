@@ -41,7 +41,7 @@ class flowplayer {
 
             switch(strtolower($extension)) {
                 case "flv":
-                    $html = '<a href="' . self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . $file->filename . '" id="player" style="display: block;width:' . $size . 'px;height: ' . ($size/2) . '"></a>';
+                    $html = '<a href="' . self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . $file->filename . '" id="player" style="display: block;width:' . $size . 'px;height: ' . ($size/2) . 'px"></a>';
                     $html .= '<script>flowplayer("player", "' . self::$smp->getWebRoot() . '/extensions/flowplayer/flowplayer-3.2.7.swf");</script>';
                     break;
             }
