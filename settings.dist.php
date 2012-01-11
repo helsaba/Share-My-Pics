@@ -57,6 +57,7 @@ $conf["Regex"]["Password"]      = "/^.*(?=.{6,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d\W
 $conf["Extensions"]                        = Array(
     "clamav",
     "thumbnailer",
+    "flowplayer",
     "facebook",
     "twitter",
     /***** Timeline Widgets *****/
@@ -100,7 +101,8 @@ $conf["Upload"]["AllowedExtensions"]    = Array(
     "jpg",
     "jpeg",
     "png",
-    "gif"
+    "gif",
+    "flv"
 );
 
 $conf["Images"]["Sizes"] = Array(
