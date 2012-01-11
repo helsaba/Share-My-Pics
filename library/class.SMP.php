@@ -220,7 +220,11 @@ class SMP {
     public function registerJavascript($path) {
         $this->api->execute("before registering javascript", array($path));
         $this->javascripts[] = $path;
-        $this->template->assign("javascripts", $this->javascripts);
+        
+        if($this->template != null) {
+            $this->template->assign("javascripts", $this->javascripts);
+        }
+        
         $this->api->execute("after registering javascript");
     }
     
@@ -230,7 +234,11 @@ class SMP {
     public function registerStyleSheet($path, $media = "screen") {
         $this->api->execute("before registering stylesheet", array($path, $media));
         $this->stylesheets[] = Array("path" => $path, "media" => $media);
-        $this->template->assign("stylesheets", $this->stylesheets);
+        
+        if($this->template != null) {
+            $this->template->assign("stylesheets", $this->stylesheets);
+        }
+        
         $this->api->execute("after registering stylesheet");
     }
     
@@ -240,7 +248,11 @@ class SMP {
     public function setPageTitle($title) {        
         $this->api->execute("before setting page title", array($title));
         $this->page_title = $title;
-        $this->template->assign("page_title", $this->page_title);
+        
+        if($this->template != null) {
+            $this->template->assign("page_title", $this->page_title);
+        }
+        
         $this->api->execute("after setting page title");
     }
     
@@ -250,7 +262,11 @@ class SMP {
     public function setPageDescription($description) {
         $this->api->execute("before setting page description", array($description));
         $this->page_description = $description;
-        $this->template->assign("page_description", $this->page_description);
+        
+        if($this->template != null) {            
+            $this->template->assign("page_description", $this->page_description);
+        }
+        
         $this->api->execute("after setting page description");
     }
     
@@ -268,7 +284,11 @@ class SMP {
         }
         
         $this->page_keywords .= $keywords;
-        $this->template->assign("page_keywords", $this->page_keywords);
+        
+        if($this->template != null) {
+            $this->template->assign("page_keywords", $this->page_keywords);
+        }
+        
         $this->api->execute("after setting page keywords");
     }
     
