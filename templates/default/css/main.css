@@ -1,0 +1,166 @@
+@import url("reset.css");
+
+/*
+ * Default style
+ */
+
+html {
+    height: 100%;
+    background: #FFE6F9 url(../images/clouds.png) repeat-x bottom fixed;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+a, a:visited {
+    color: #4796C0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #A5CDDD;
+    text-decoration: underline;
+}
+
+label {
+    font-weight: bold;
+    color: #666;
+    font-size: 12pt;
+}
+
+input[type=email], input[type=password], input[type=text], input[type=file] {
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    width: 250px;
+    padding: 5px 10px;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 10px;
+    background: #BF1AA1;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+input[type=file] {
+    width: 500px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 150%;
+}
+
+h2 {
+    color: #4796C0;
+    font-size: 18pt;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*
+ * Common elements
+ */
+
+#wrapper {
+    width: 900px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+}
+
+#main {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    clear: both;
+    overflow: hidden;
+}
+
+#footer {
+    font-size: 8pt;
+}
+
+#footer #copyright {
+    font-size: 8pt;
+    color: #E895D9;
+    padding-top: 10px;
+}
+
+#footer ul {
+    float: right;
+    list-style: none;
+}
+
+#footer li {
+    float: left;
+    margin-left: 15px;
+}
+
+#footer a, #footer a:visited {
+    font-weight: bold;
+    color: #E895D9;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #BF1AA1;
+}
+
+.spacer {
+    display: block;
+    padding: 5px;
+}
+
+.error {
+    margin-top: 10px;
+    border: solid 1px #9F0000;
+    background: #FFE4E4;
+    padding: 5px;
+    color: #9f0000;
+}
+
+.info {
+    margin-top: 10px;
+    border: solid 1px #00AF18;
+    background: #DBFFE0;
+    padding: 5px;
+    color: #008412;
+}
+
+.bloc {
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    background: #E9F3F7;
+    margin-bottom: 10px;
+}
+
+a.keyword, a.keyword:visited {
+    background: #A5CDDD;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.keyword:hover {
+    background: #4796C0;
+}

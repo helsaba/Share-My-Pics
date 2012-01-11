@@ -1,0 +1,22 @@
+<div id="contact_form">
+    <form method="post" action="{$base_url}/contact.php">
+        <label for="email">{$email_label} :</label><br />
+        <input type="email" name="email" id="email" value="{$email}" autofocus required /><br /><br />
+        
+        <label for="subject">{$subject_label} :</label><br />
+        <input type="text" name="subject" id="subject" class="subject" /><br /><br />
+        
+        <label for="message">{$message_label} :</label><br />
+        <textarea name="message" rows="10" cols="80" required></textarea>
+        
+        <div class="spacer"></div>
+        <input type="submit" name="send" value="{$send_button}" />
+    </form>
+    <div class="spacer"></div>
+    {if $error != ""}
+    <div class="error">{$error}</div>
+    {/if}
+    {if $info != ""}
+    <div class="info">{$info}</div>
+    {/if}
+</div>

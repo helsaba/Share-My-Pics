@@ -1,0 +1,19 @@
+<div class="step">
+    <h2>{$title_text}</h2>
+    
+    <form method="post" action="{$base_url}/trouble.php">
+        <input type="radio" name="problem" value="no_activation_link" id="no_activation_link" /> <label for="no_activation_link">{$no_activation_link_label}</label><br />
+        <input type="radio" name="problem" value="password_forgotten" id="password_forgotten" /> <label for="password_forgotten">{$password_forgotten_label}</label><br /><br />
+        
+        <label for="email">{$email_label}</label><br />
+        <input type="email" name="email" value="{$email}" required /><br /><br />
+        
+        <input type="submit" name="resolve" value="{$resolve}" />
+    </form>
+    {if $error != ""}
+    <div class="error">{$error}</div>
+    {/if}
+    {if $info != ""}
+    <div class="info">{$info}</div>
+    {/if}
+</div>

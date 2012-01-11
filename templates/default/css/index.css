@@ -1,0 +1,147 @@
+.step {
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    background: #E9F3F7 url(../images/clouds.png) no-repeat bottom right;
+    color: #666;
+    overflow: hidden;
+}
+
+.selected {
+    background: #A5CDDD url(../images/clouds.png) no-repeat bottom right;
+}
+
+#login-box, #upload-box, #link-box {
+    margin-left: 80px;
+}
+
+#login-box table {
+    width: 100%;    
+}
+
+#login-box td, #login-box th {
+    text-align: center;
+}
+
+#login-box th {
+    padding-bottom: 10px;
+}
+
+#login-box ul#login_links {
+    list-style: none;
+    overflow: hidden;
+    width: 350px;
+    margin: auto;
+}
+
+#login-box ul#login_links li {
+    float: left;
+}
+
+#login_forms {
+    background: #E9F3F7;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+#link-box input[type=text] {
+    width: 500px;
+    text-align: center;
+}
+
+#upload-box input[type=submit] {
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background: #BF1AA1;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+#login-box ul#login_links a, #login-box ul#login_links a:visited {
+    border-radius: 10px 10px 0 0;
+    background: #48849C;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    width: 130px;
+    margin-right: 10px;
+    color: #A5CDDD;
+    font-size: 12pt;
+}
+
+#login-box ul#login_links a#login_link_selected {
+    font-weight: bold;
+    color: #4796C0;
+    background: #E9F3F7;
+}
+
+#logout_link, #logout_link:visited {
+    border-radius: 10px;
+    background: #E9F3F7;
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 5px 10px 0 0;
+    clear: left;
+    text-align: center;
+    width: 100px;
+}
+
+#logout_link:hover {
+    background: #48849C;
+    color: #A5CDDD;
+}
+
+#social_networks, #goback_link, #goback_link:visited, #in_trouble, #in_trouble:visited {
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    background: #E9F3F7;
+}
+
+#goback_link, #in_trouble {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#goback_link {
+    margin-bottom: 10px;
+}
+
+#goback_link:hover, #in_trouble:hover {
+    background: #48849C;
+    color: #A5CDDD;
+}
+
+img.stepimg {
+    float: left;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#my_avatar {
+    border-radius: 10px;
+    background: #fff;
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.social_network_icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

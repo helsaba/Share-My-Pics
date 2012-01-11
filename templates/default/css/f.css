@@ -1,0 +1,13 @@
+.file_view {
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    padding: 3px 10px;
+}
+
+.meta_extname {
+    font-weight: bold;
+    color: #00761D;
+}

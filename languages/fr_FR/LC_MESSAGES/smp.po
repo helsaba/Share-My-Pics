@@ -1,0 +1,527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SMP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-10 05:20+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jimmy Rudolf <contact@ingnu.fr>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: /home/jimmy/Dédibox/ingnu/fr/smp/www/\n"
+"X-Poedit-SearchPath-0: /home/jimmy/Dédibox/ingnu/fr/smp/www\n"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:28
+msgid "Contact"
+msgstr "Contact"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:44
+msgid "Your message was successfully sent. Thank you for your interest !"
+msgstr "Votre message a été envoyé avec succès. Merci pour votre intérêt !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:46
+msgid "Your message was not sent, due to temporary mail system failure, please try again later, and sorry for convenience."
+msgstr "A cause d'un problème temporaire de messagerie, votre message n'a pas pu être envoyé. Merci de réessayer plus tard. Nous sommes désolés pour la gêne occasionnée."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:53
+msgid "Your email address (required)"
+msgstr "Votre adresse email (requise)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:55
+msgid "Subject"
+msgstr "Sujet"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:56
+msgid "Your message (required)"
+msgstr "Votre message (requis)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/contact.php:57
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:341
+msgid "Send"
+msgstr "Envoyer"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:28
+msgid "Home"
+msgstr "Accueil"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:38
+msgid "Step 1"
+msgstr "Étape 1"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:41
+msgid "Step 2"
+msgstr "Étape 2"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:44
+msgid "Step 3"
+msgstr "Étape 3"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:49
+msgid "Your account"
+msgstr "Votre compte"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:76
+msgid "You specified a wrong activation key. Please check your activation link in your mailbox, or request a new activation link"
+msgstr "Vous avez spécifié une mauvause clé d'activation. Merci de vérifier votre lien d'activation dans votre boîte de réception, ou de demander un nouveau lien d'activation"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:79
+msgid "You have successfuly activated your account. You can now log in !"
+msgstr "Vous avez activé votre compte. Vous pouvez maintenant vous connecter !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:108
+msgid "You have successfully registered !"
+msgstr "Vous êtes désormais enregistré !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:111
+msgid " You must now check your inbox for your activation link. Just click on the provided link to activate, then you will be able to log in"
+msgstr " Vous devez maintenant vérifier votre boîte aux lettres pour y trouver votre lien d'activation. Cliquez simplement sur ce lien pour activer votre compte. Vous pourrez alors vous connecter."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:117
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:147
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:214
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:45
+msgid "Specified email is not valid"
+msgstr "L'adresse email spécifiée est invalide"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:120
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:217
+msgid "Specified username is not valid"
+msgstr "Le nom d'utilisateur spécifié est invalide"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:123
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:150
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:220
+msgid "Specified password is not valid"
+msgstr "Le mot de passe spécifié est invalide"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:126
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:223
+msgid "Account already exists"
+msgstr "Ce compte existe déjà"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:129
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:226
+msgid "Your welcome mail was not sent. It only contained your password, so for now on, you must not forget it :)"
+msgstr "Votre message de bienvenue n'a pas pu être envoyé. Il contenait simplement votre mot de passe en clair. A partir de maintenant, vous ne devez plus l'oublier :)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:132
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:229
+msgid "Your activation link was not sent. You should wait for a couple of time before asking for a new activation link"
+msgstr "Votre lien d'activation n'a pas été envoyé. Vous devrez attendre un peu avant de demander un nouveau lien"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:153
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:48
+msgid "Account does not exists"
+msgstr "Le compte n'existe pas"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:156
+msgid "You must activate your account by clicking on the link provided with your activation email. If you have not received this email, please request a new activation link"
+msgstr "Vous devez activer votre compte en cliquant sur le lien fourni avec votre mail d'activation. Si vous n'avez pas reçu ce mail, merci d'en demander un nouveau"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:159
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:244
+msgid "You submitted a wrong password"
+msgstr "Vous avez soumis un mauvais mot de passe"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:173
+msgid "Upload was cancelled."
+msgstr "L'envoi a été annulé."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:176
+msgid "The reason was : "
+msgstr "La raison était :"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:179
+msgid "The reasons were : "
+msgstr "Les raisons ont été :"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:187
+msgid "You must choose a file to upload !"
+msgstr "Vous devez choisir un fichier à envoyer !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:195
+msgid "This extension is not allowed"
+msgstr "Cette extension n'est pas autorisée"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:198
+msgid "Your file is bigger than allowed size"
+msgstr "Votre fichier est plus grand que la taille maximale autorisée"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:211
+msgid "Your account was successfully updated !"
+msgstr "Votre compte a été mis à jour !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:241
+msgid "You must confirm you want to remove your account"
+msgstr "Vous devez confirmer la suppression de votre compte"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:297
+#, php-format
+msgid "Login or register on %s :"
+msgstr "Se connecter ou s'enregistrer sur %s :"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:298
+#, php-format
+msgid "You are currently logged in. %sClick here%s to log out, or to link a social network account."
+msgstr "Vous êtes actuellement connecté. %sCliquez ici%s pour vous déconnecter, ou pour lier un compte de réseau social."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:299
+msgid "Click here if you encounter difficulties with your account"
+msgstr "Cliquez ici si vous avez des difficultés à vous connecter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:301
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:308
+msgid "Login"
+msgstr "Se connecter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:302
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:309
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:304
+msgid "Email address"
+msgstr "Adresse email"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:305
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:306
+msgid "Password"
+msgstr "Mot de passe"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:311
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:313
+#, php-format
+msgid "Here, you can link your social networks accounts, in order to automatically publish on them the pictures and videos you will upload on %s. Just click on the links below, and follow the instructions for each network you want to link."
+msgstr "Ici, vous pouvez lier vos comptes sur vos réseaux sociaux, de façon à publier automatiquement vos fichiers que vous enverrez sur %s. Cliquez simplement sur les liens ci-dessous, et suivez les instructions pour chaque réseau que vous voulez lier."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:314
+msgid "Go back and upload something !"
+msgstr "Revenez envoyer quelque chose !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:316
+msgid "Account's details"
+msgstr "Détails du compte"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:319
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:323
+msgid "Deleting your account"
+msgstr "Supprimer votre compte"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:324
+msgid "If you delete your account, you won't be able to login again. If you check the case below, your uploaded files will be removed too. They will appear as a removed profile. No data will remain here after you deleted your account."
+msgstr "Si vous supprimez votre compte, vous ne pourrez plus vous connecter. Si vous cochez la case ci-dessous, les fichiers que vous avez déjà envoyé seront supprimés. Sinon, ils apparaitront comme apartenant à un compte supprimé. Aucune autre donnée ne restera ici après la suppression de votre compte."
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:325
+msgid "Remove my files too"
+msgstr "Supprimer aussi mes fichiers"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:326
+msgid "I confirm my demand of deleting my account !"
+msgstr "Je confirme ma demande de suppression de compte !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:327
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:334
+msgid "Upload your file (and, optionnally, tag it)"
+msgstr "Envoyez votre fichier (et éventuellement, taguez-le)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:338
+msgid "The title of your file (optional)"
+msgstr "Titre de votre fichier (optionnel)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:339
+msgid "Some keywords (optional)"
+msgstr "Quelques mots-clés (optionnels)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:340
+msgid "The file to upload (required)"
+msgstr "Le fichier à envoyer (requis)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:342
+#, php-format
+msgid "Allowed extensions : %s"
+msgstr "Extensions autorisées : %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:343
+#, php-format
+msgid "Maximum filesize : %s"
+msgstr "Taille maximum du fichier : %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:349
+msgid "Grab your link, and share it with the world !"
+msgstr "Récupérez votre lien et partagez-le avec le monde entier !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/index.php:350
+msgid "Your link to your file is :"
+msgstr "Le lien vers votre fichier est :"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:28
+msgid "In trouble"
+msgstr "J'ai des problèmes"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:42
+msgid "You have not specified a problem"
+msgstr "Vous n'avez pas précisé votre problème"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:51
+msgid "We failed to send you your activation email. Please retry later, and sorry for convenience"
+msgstr "Nous n'avons pas pu vous envoyer votre message d'activation. Veuillez réessayer plus tard. Nous nous excusons pour la gêne occasionnée"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:54
+msgid "We failed to send you your new password. Your current password had not changed. Please retry later, and sorry for convenience"
+msgstr "Nous n'avons pas pu vous envoyer votre nouveau mot de passe. Votre mot de passe actuel n'a pas été modifié. Veuillez réessayer plus tard. Nous nous excusons pour la gêne occasionnée"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:57
+msgid "Your activation message was successfully sent"
+msgstr "Votre message d'activation a été envoyé"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:60
+msgid "Your new password was sent to your email address"
+msgstr "Votre nouveau mot de passe a été envoyé"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:68
+msgid "What's your problem ?"
+msgstr "Quel est votre problème ?"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:69
+msgid "I havn't received my activation link"
+msgstr "Je n'ai pas reçu mon lien d'activation"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:70
+msgid "I have forgotten my password"
+msgstr "J'ai oublié mon mot de passe"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:71
+msgid "Your email (required)"
+msgstr "Votre adresse email (requise)"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/trouble.php:73
+msgid "Resolve my problem !"
+msgstr "Résolvez mon problème !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:28
+msgid "File's details"
+msgstr "Détails du fichier"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:94
+msgid "The specified file does not exists"
+msgstr "Le fichier spécifié n'existe pas"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:97
+msgid "The specified file identifier is invalid"
+msgstr "L'identifiant de fichier spécifié est invalide"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:110
+msgid "Click on the picture to get to the original file"
+msgstr "Cliquez sur l'image pour voir le fichier original"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:112
+msgid "File details"
+msgstr "Détails du fichier"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:113
+msgid "Uploader"
+msgstr "Compte"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:115
+msgid "Date uploaded"
+msgstr "Date d'envoi"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:117
+msgid "File type"
+msgstr "Type de fichier"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:119
+msgid "File size"
+msgstr "Taille de fichier"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:121
+msgid "Other informations"
+msgstr "Autres informations"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/f.php:123
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:28
+msgid "Public timeline"
+msgstr "Flux public"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:56
+#, php-format
+msgid "%s's timeline"
+msgstr "Flux de %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:71
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "Résultats de la recherche pour \"%s\""
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:105
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/widget_last_members/Module.php:51
+#, php-format
+msgid "%s's avatar"
+msgstr "Avatar de %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:119
+msgid "Search"
+msgstr "Rechercher"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/timeline.php:122
+msgid "This timeline is still empty !"
+msgstr "Ce flux est encore vide"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/clamav/Module.php:54
+#, php-format
+msgid "The file %s appears to be a virus !"
+msgstr "Le fichier %s semble être un virus !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/clamav/Module.php:78
+msgid "Checked using clamav antivirus"
+msgstr "Vérifié avec l'antivirus clamav"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/widget_tags_cloud/Module.php:55
+msgid "Popular tags"
+msgstr "Mots-clés populaires"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/facebook/Module.php:43
+msgid "Click here to link your facebook account"
+msgstr "Cliquez ici pour lier votre compte facebook"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/facebook/Module.php:64
+#, php-format
+msgid "Account \"%s\" linked with %s"
+msgstr "Le compte \"%s\" est lié à %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/facebook/Module.php:64
+msgid "Click here to unlink your facebook account"
+msgstr "Cliquez ici pour délier votre compte facebook"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/widget_last_members/Module.php:67
+msgid "Last members"
+msgstr "Derniers membres"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/widget_exif/Module.php:75
+msgid "Exif datas"
+msgstr "Données Exif"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/twitter/Module.php:43
+msgid "Click here to link your twitter account"
+msgstr "Cliquez ici pour lier votre compte twitter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/twitter/Module.php:73
+msgid "Click here to unlink your twitter account"
+msgstr "Cliquez ici pour délier votre compte twitter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/extensions/twitter/Module.php:132
+msgid "Message not sent to twitter"
+msgstr "Le message n'a pas pu être envoyé sur twitter"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.SMP.php:186
+msgid "See what others have uploaded"
+msgstr "Ce que les autres ont envoyé"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.SMP.php:188
+msgid "Search for your interests"
+msgstr "Cherchez des fichiers qui peuvent vous intéresser"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.SMP.php:190
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.SMP.php:307
+#, php-format
+msgid ""
+"\n"
+"\n"
+"This message was sent through %s"
+msgstr ""
+"\n"
+"\n"
+"Ce message a été envoyé via %s"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:138
+#, php-format
+msgid "Welcome to %s, %s !"
+msgstr "Bienvenue sur %s, %s !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:142
+#, php-format
+msgid ""
+"Thank you for your registration on %s. This first message reminds you your\n"
+"login informations. Please keep it in a safe place. Your password is : %s. Please note that\n"
+"we never ask you for your password in the future, with the exception of the login page of our\n"
+"website. We store it encrypted, so if you lose it, you must ask for a new password.\n"
+"\n"
+msgstr ""
+"Merci pour votre enregistrement sur %s. Ce premier message vous rappelle\n"
+"vos informations d'identification. Veuillez le conserver dans un endroit sûr.\n"
+"Votre mot de passe est : %s. Veuillez noter que nous ne vous demanderons\n"
+"plus votre mot de passe à l'avenir, à l'exception du formulaire d'identification.\n"
+"Nous l'enregistrons sous forme cryptée, donc si vous le perdez, vous devrez\n"
+"demander un nouveau mot de passe.\n"
+"\n"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:171
+#, php-format
+msgid "Your activation link for %s !"
+msgstr "Votre lien d'activation pour %s !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:175
+#, php-format
+msgid ""
+"%s requires a valid email address. You must validate yours in order to\n"
+"be allowed to log in. It's fairly simple : just click on the link below and you'll be done.\n"
+"\n"
+msgstr ""
+"Le site %s requiert une adresse email valide. Vous devez valider la votre\n"
+"pour pouvoir vous connecter. Il vous suffit simplement de cliquer sur le lien\n"
+"ci-dessous.\n"
+"\n"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:386
+#, php-format
+msgid "Your new password for %s !"
+msgstr "Votre nouveau mot de passe pour %s !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Auth.php:390
+#, php-format
+msgid ""
+"You have requested a new password. Here it is : %s. You can\n"
+"now log in to %s, and you should quickly change your password.\n"
+"\n"
+msgstr ""
+"Vous avez demandé un nouveau mot de passe. Le voici : %s. \n"
+"Vous pouvez maintenant vous connecter sur %s. Vous devriez\n"
+"rapidement le changer pour un mot de passe qui vous convient.\n"
+"\n"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Database.php:45
+msgid "An error has occured while opening database !"
+msgstr "Une erreur est survenue lors de l'ouverture de la base de données !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Database.php:91
+msgid "An error has occured while selecting datas !"
+msgstr "Une erreur est survenue lors de la sélection des données !"
+
+#: /home/jimmy/DÃ©dibox/ingnu/fr/smp/www/library/class.Upload.php:144
+msgid "Thumbnail"
+msgstr "Miniature"
+

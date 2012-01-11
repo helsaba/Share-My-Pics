@@ -1,0 +1,13 @@
+#contact_form {
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    background: #E9F3F7 url(../images/clouds.png) no-repeat bottom right;
+    color: #666;
+    overflow: hidden;
+}
+
+input[type=text].subject {
+    width: 500px;
+}

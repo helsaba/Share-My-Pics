@@ -1,0 +1,54 @@
+<div id="login-box">
+    <img id="my_avatar" src="{$avatar_url}" />        
+    
+    <a href="{$base_url}/?logout" id="logout_link">{$text_logout_link}</a>
+    
+    <a href="{$base_url}" id="goback_link">{$text_goback_link}</a>
+    
+    <div class="bloc">
+        <h3>{$accounts_details}</h3>
+        
+        <form method="post" action="{$base_url}/?view_profile">
+            <label for="email">{$email_label} :</label><br />
+            <input type="email" name="email" id="email" value="{$email_value}" autofocus required /><br /><br />
+            
+            <label for="username">{$username_label} :</label><br />
+            <input type="text" name="username" id="username" value="{$username_value}" required /><br /><br />
+            
+            <label for="password">{$password_label} :</label><br />
+            <input type="password" name="password" id="password" required /><br /><br />
+            
+            <input type="submit" name="update-account" value="{$update_account_button}" />
+        </form>
+        {if $error != ""}
+        <div class="error">{$error}</div>
+        {/if}
+        {if $info != ""}
+        <div class="info">{$info}</div>
+        {/if}
+    </div>
+    
+    <div class="bloc">
+        <p>{$text_social_networks_intro}</p>
+        {foreach $sn_status as $status}
+        <div>{$status}</div>
+        {/foreach}
+    </div>
+    
+    <div class="bloc">
+        <h3>{$delete_account}</h3>
+        <form method="post" action="{$base_url}/?view_profile">
+            <p>{$delete_warning}</p>
+            <input type="checkbox" name="remove_files" id="remove_files" /> <label for="remove_files">{$remove_files_label}</label><br />
+            <input type="checkbox" name="delete_account_confirm" id="delete_account_confirm" /> <label for="delete_account_confirm">{$delete_account_confirm_label}</label><br /><br />
+            
+            <label for="password2">{$password_label} :</label><br />
+            <input type="password" name="password" id="password2" required /><br /><br />
+            
+            <input type="submit" name="delete-account" value="{$delete_account_button}" />
+        </form>
+        {if $delete_error != ""}
+        <div class="error">{$delete_error}</div>
+        {/if}
+    </div>
+</div>

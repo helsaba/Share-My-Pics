@@ -1,0 +1,38 @@
+<div id="updates">
+{foreach $updates as $update}
+    <div class="update">
+        <div class="profile">
+            <h3>{$update.username}</h3>
+            <img class="avatar" src="{$update.avatar_url}" alt="{$update.avatar_text}" />
+        </div>
+        <div class="update_content">
+            <div class="thumbnail">
+                {$update.thumbnail}
+            </div>
+        
+            <h3>{$update.title}</h3>
+            <p class="update_date">{$update.date}</p>
+            <div class="spacer"></div>
+            <p class="keywords">{$update.keywords}</p>
+        </div>
+    </div>
+{foreachelse}
+    {$no_result}
+{/foreach}
+</div>
+<div id="sidebar">
+    <h3>{$timeline_name}</h3>
+    
+    <div id="search_widget">
+    <form method="get" action="{$timeline_url}">
+    <input type="text" name="q" value="{$search_keywords}" autofocus required /><input type="submit" value="{$search_button}" />
+    </form>
+    </div>
+    
+    {foreach $widgets as $index => $widget}
+    <div class="widget">
+        <h4>{$widget.title}</h4>
+        {$widget.content}
+    </div>
+    {/foreach}
+</div>

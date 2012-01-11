@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{$site_title} - {$page_title}</title>
+        
+        <base href="{$base_url}" />
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
+        <meta name="application-name" content="Share My Pics" />
+        <meta name="author" content="Jimmy Rudolf" />
+        <meta name="generator" content="Bluefish 2.0.1" />        
+        {if $page_description != ""}
+        <meta name="description" content="{$page_description}" />
+        {/if}        
+        {if $page_keywords != ""}
+        <meta name="keywords" content="{$page_keywords}" />
+        {/if}
+        {foreach $stylesheets as $css}
+        <link rel="stylesheet" type="text/css" href="{$css.path}" media="{$css.media}" />
+        {/foreach}
+        {foreach $javascripts as $js}
+        <script type="text/javascript" src="{$js}"></script>
+        {/foreach}
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="main_header">
+                <a href="{$base_url}" title="{$title_home_link}" id="logo_link"><img src="{$logo_src}" alt="{$alt_logo}" id="logo" /></a>
+            </header>
+            <div id="main">

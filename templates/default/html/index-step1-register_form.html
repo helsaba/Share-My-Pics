@@ -1,0 +1,14 @@
+<div id="register_form">
+    <form method="post" action="{$base_url}/index.php?register">
+        <label for="email">{$email_label} :</label><br />
+        <input type="email" name="email" id="email" autofocus required /><br /><br />
+        
+        <label for="username">{$username_label} :</label><br />
+        <input type="text" name="username" id="username" required /><br /><br />
+        
+        <label for="password">{$password_label} :</label><br />
+        <input type="password" name="password" id="password" required /><br /><br />
+        
+        <input type="submit" name="register" value="{$register_button}" />
+    </form>
+</div>

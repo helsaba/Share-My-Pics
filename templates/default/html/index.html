@@ -1,0 +1,35 @@
+<div class="{$step1_class}" id="step1">
+    <img src="{$template_root}/images/arrow-right.png" alt="{$text_step1_header}" class="stepimg" />
+    <h2>{$text_step1_header}</h2>  
+    {if $current_status == "not logged in" || $current_status == "registering"}
+        {include file="index-step1-expanded_form.html"}
+    {else if $current_status == "view profile"}
+        {include file="index-step1-expanded_profile.html"}
+    {else}
+        {include file="index-step1-collapsed.html"}
+    {/if}
+</div>
+
+{if $current_status != "view profile"} 
+<div class="spacer"></div>
+
+<div class="{$step2_class}" id="step2">
+    <img src="{$template_root}/images/arrow-right.png" alt="{$text_step2_header}" class="stepimg" />
+    <h2>{$text_step2_header}</h2>  
+    <p>{$text_upload}</p>
+    {if $current_status == "can upload"}
+        {include file="index-step2.html"}
+    {/if}
+</div>
+
+<div class="spacer"></div>
+
+<div class="{$step3_class}" id="step3">
+    <img src="{$template_root}/images/arrow-right.png" alt="{$text_step3_header}" class="stepimg" />
+    <h2>{$text_step3_header}</h2> 
+    <p>{$text_grab_link}</p> 
+    {if $current_status == "file uploaded"}
+        {include file="index-step3.html"}
+    {/if}
+</div>
+{/if}

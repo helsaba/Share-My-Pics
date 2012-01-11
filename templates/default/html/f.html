@@ -1,0 +1,55 @@
+{if $error == ""}
+<div class="bloc">
+    <h2>{$file_title}</h2>
+    
+    <div class="file_view">
+        <a href="{$file_url}" title="{$file_title}">{$thumbnail}</a>
+        <div class="spacer"></div>
+        {$click_to_enlarge}
+    </div>
+</div>
+
+<div class="bloc">
+    <h2>{$file_infos_title}</h2>
+    
+    <table>
+        <tr>
+            <th>{$uploader_label}</th>
+            <td>{$uploader}</td>
+        </tr>
+        <tr>
+            <th>{$date_label}</th>
+            <td>{$date}</td>
+        </tr>
+        <tr>
+            <th>{$tags_label}</th>
+            <td>{$tags}</td>
+        </tr>
+        <tr>
+            <th>{$filetype_label}</th>
+            <td>{$filetype}</td>
+        </tr>
+        <tr>
+            <th>{$filesize_label}</th>
+            <td>{$filesize}</td>
+        </tr>
+        <tr>
+            <th>{$meta_label}</th>
+            <td>
+                {foreach $meta as $extName => $infos}
+                <span class="meta_extname">{$extName}</span> {$infos}<br />
+                {/foreach}
+            </td>
+        </tr>
+    </table>
+</div>
+
+{foreach $widgets as $index => $widget}
+<div class="bloc">
+    <h2>{$widget.title}</h2>
+    {$widget.content}
+</div>
+{/foreach}
+{else}
+<div class="error">{$error}</div>
+{/if}

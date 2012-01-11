@@ -1,0 +1,33 @@
+<div id="login-box">
+    <table>
+        <thead>
+            <tr>
+                <th>{$text_login_or_register}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul id="login_links">
+                        <li><a href="{$base_url}"{if $current_status == "not logged in"} id="login_link_selected"{/if}>{$text_login_link}</a></li>
+                        <li><a href="{$base_url}/?register"{if $current_status == "registering"} id="login_link_selected"{/if}>{$text_register_link}</a></li>
+                    </ul>
+                    <div id="login_forms">
+                        {if $current_status == "not logged in"}
+                            {include file="index-step1-login_form.html"}
+                        {else if $current_status == "registering"}
+                            {include file="index-step1-register_form.html"}
+                        {/if}
+                        {if $error != ""}
+                        <div class="error">{$error}</div>
+                        {/if}
+                        {if $info != ""}
+                        <div class="info">{$info}</div>
+                        {/if}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="{$base_url}/trouble.php" id="in_trouble">{$text_in_trouble_link}</a>
+</div>

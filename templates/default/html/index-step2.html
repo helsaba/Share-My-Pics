@@ -1,0 +1,20 @@
+<div id="upload-box">
+    {if $upload_dir_writable == "true"}
+    <form enctype="multipart/form-data" method="post" action="{$base_url}/index.php">
+    <label for="title">{$upload_title_label}</label><br />
+    <input type="text" name="title" id="title" autofocus /><br /><br />
+    <label for="keywords">{$upload_keywords_label}</label><br />
+    <input type="text" name="keywords" id="keywords" /><br /><br />
+    <label for="file">{$upload_file_label}</label><br />
+    <input type="file" name="file" id="file" /><input type="submit" name="upload" id="upload" value="{$upload_button}" />
+    </form>
+    <p>{$text_extensions}</p>
+    <p>{$text_max_filesize}</p>
+    {/if}
+    {if $error != ""}
+    <div class="error">{$error}</div>
+    {/if}
+    {if $info != ""}
+    <div class="info">{$info}</div>
+    {/if}
+</div>
