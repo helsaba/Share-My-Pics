@@ -49,13 +49,17 @@ class thumbnailer {
                 $thumbPath = self::$smp->getRoot() . "/upload/" . $file->account_id . "/" . basename($fullpath, "." . $extension) . "_" . $size . "." . $extension;
                 $thumbWebPath = self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . basename($fullpath, "." . $extension) . "_" . $size . "." . $extension; 
                 
-                $html = "<img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" />";
-                
                 if(!is_file($thumbPath)) {
                     $im = new Imagick($originalPath);
-                    $im->thumbnailImage($size, null);
-                    $im->writeImage($thumbPath);
-                    $im->clear();
+                    
+                    if($im->getImageWidth() > $size) {
+                        $im->thumbnailImage($size, null);
+                        $im->writeImage($thumbPath);
+                
+                        $html = "<img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" />";
+                    }
+                    
+                    $im->clear();                        
                     $im->destroy();
                 }
                 break;
