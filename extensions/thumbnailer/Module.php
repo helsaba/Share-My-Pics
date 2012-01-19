@@ -55,13 +55,13 @@ class thumbnailer {
                     if($im->getImageWidth() > $size) {
                         $im->thumbnailImage($size, null);
                         $im->writeImage($thumbPath);
-                
-                        $html = "<img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" />";
                     }
                     
                     $im->clear();                        
                     $im->destroy();
                 }
+                
+                $html = "<img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" />";
                 break;
         }
         
