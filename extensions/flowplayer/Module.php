@@ -34,8 +34,9 @@ class flowplayer {
     }    
     
     public function get_thumbnail(&$file, &$fullpath, &$thumbHTML, $size) {
+        $extension = substr($file->filename, strrpos($file->filename, ".") + 1);
+            
         if($size > 300) {
-            $extension = substr($file->filename, strrpos($file->filename, ".") + 1);
 
             $html = $thumbHTML;
 
@@ -48,8 +49,12 @@ class flowplayer {
 
             $thumbHTML = $html;
         }
-        else {
-            $thumbHTML = "<img src=\"" . self::$smp->getWebRoot() . "/extensions/flowplayer/video.png\" alt=\"" . $file->filename . "\" />";            
+        else {  
+            switch(strtolower($extension)) {
+                case "flv":
+                    $thumbHTML = "<img src=\"" . self::$smp->getWebRoot() . "/extensions/flowplayer/video.png\" alt=\"" . $file->filename . "\" />";            
+                    break;
+            }
         }
     }
 }
