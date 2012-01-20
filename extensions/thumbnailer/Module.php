@@ -55,6 +55,8 @@ class thumbnailer {
                     if($im->getImageWidth() > $size) {
                         $im->thumbnailImage($size, null);
                         $im->writeImage($thumbPath);
+                    } else {
+                        $thumbWebPath = self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . basename($fullpath, "." . $extension) . "." . $extension; 
                     }
                     
                     $im->clear();                        
