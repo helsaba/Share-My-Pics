@@ -48,6 +48,7 @@ class thumbnailer {
                 $originalPath = self::$smp->getRoot() . "/upload/" . $file->account_id . "/" . $file->filename; 
                 $thumbPath = self::$smp->getRoot() . "/upload/" . $file->account_id . "/" . basename($fullpath, "." . $extension) . "_" . $size . "." . $extension;
                 $thumbWebPath = self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . basename($fullpath, "." . $extension) . "_" . $size . "." . $extension; 
+                $originalWebPath = self::$smp->getWebRoot() . "/upload/" . $file->account_id . "/" . $file->filename; 
                 
                 if(!is_file($thumbPath)) {
                     $im = new Imagick($originalPath);
@@ -63,7 +64,7 @@ class thumbnailer {
                     $im->destroy();
                 }
                 
-                $html = "<img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" />";
+                $html = "<a href=\"" . $originalWebPath . "\" title=\"" . $file->filename . "\"><img src=\"" . $thumbWebPath . "\" alt=\"" . $file->filename . "\" /></a>";
                 break;
         }
         
